@@ -1,0 +1,32 @@
+{
+  "geo": "elevado",
+  "tes": true,
+
+  "min_score": 4.0,
+  "min_conf": 4,
+  "min_atr_spread": 5.0,
+  "assumed_spread": 0.30,
+  "closed_bar": false,
+  "alert_macro_change": true,
+
+  "tf_regime": "1h",
+  "tf_trigger": "5m",
+
+  "tickers": {
+    "gold": "XAUUSD=X",
+    "dxy": "DX-Y.NYB"
+  },
+
+  "watchlist": [
+    {"label": "EURUSD", "ticker": "EURUSD=X"},
+    {"label": "GBPUSD", "ticker": "GBPUSD=X"},
+    {"label": "USDJPY", "ticker": "USDJPY=X"},
+    {"label": "AUDUSD", "ticker": "AUDUSD=X"},
+    {"label": "USDCHF", "ticker": "USDCHF=X"},
+    {"label": "EURGBP", "ticker": "EURGBP=X"},
+    {"label": "USDCAD", "ticker": "USDCAD=X"},
+    {"label": "NZDUSD", "ticker": "NZDUSD=X"},
+    {"label": "XAGUSD", "ticker": "XAGUSD=X"},
+    {"label": "BTCUSD", "ticker": "BTC-USD"}
+  ]
+}
